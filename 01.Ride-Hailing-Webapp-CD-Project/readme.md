@@ -5,14 +5,19 @@
 ![App Architecture](./images/architecture.png)
 
 ## Project requirements & analysis
-### + Text Editor
-### + An Account and access to AWS Console
-### + Knowledge of AWS Services
-### + A free ArcGIS account (arcgis.com)
-### + The need to store/update/pull code
-### + The need to handle permissions for code
-### + The need to host website and make updates
-### + User registration and login
-### + Ride sharing functionality
-### + The need to store/return ride results
-### + Invoking ride sharing functionality
++ An Account and access to AWS Console
++ Knowledge of AWS Services
++ A free ArcGIS account (arcgis.com)
++ The need to store/update/pull code
++ The need to handle permissions for code
++ The need to host website and make updates
++ User registration and login
++ Ride sharing functionality
++ The need to store/return ride results
++ Invoking ride sharing functionality
+
+### Code Setup
+We use AWS CodeCommit to:
++ store/update/pull the wep application source code
++ handle permissions for the source code
++ Side note: There is need to be consistent in the AWS region we are working in
