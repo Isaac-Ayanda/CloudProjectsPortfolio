@@ -20,4 +20,9 @@
 We use AWS CodeCommit to:
 + store/update/pull the wep application source code
 + handle permissions for the source code
-+ Side note: There is need to be consistent in the AWS region we are working in
++ Side note: There is need to be consistent in the AWS region we are working in.
++ The App source code is made availale by AWS in a public S3 bocket
++ We create a CodeCommit Repo
++ + Create an empty repository in CodeCommit
+![App Architecture](./images/codecommitrepo.png)
+![App Architecture](./images/createrepo.png)
