@@ -32,4 +32,6 @@ We use AWS CodeCommit to:
 ![Create repo on CodeCommit](./images/add-permissions.png)
 ![Create repo on CodeCommit](./images/attach-policy.png)
 .
-+ Create Git credentials for your IAM user to allow HTTPS connections to CodeCommit
++ Create GIT credentials for your IAM user to allow HTTPS connections to CodeCommit 
+<!-- IAM>Users>Security credentials>HTTPS Git Credentials for AWS CodeCommit>Generate credentials -->
+![Create GIT credentials](./images/git-credentials.png)
