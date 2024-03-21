@@ -54,5 +54,6 @@ We use AWS CodeCommit to:
 .
 ### Host the Website & allow continuous delivery
 We use AWS Amplify to:
++ connect with the CodeCommit repository and pull the source code
 + host the website so that user can easily access it.
 + easily deliver updates to the website
