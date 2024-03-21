@@ -62,3 +62,15 @@ We use AWS Amplify to:
 ![View source code in repo](./images/applify-app1.png)
 <!-- Amplify is serverless and no need to provision EC2 servers-->
 ![View source code in repo](./images/applify-app2.png)
+![View source code in repo](./images/app-page.png)
+.
++ Test that continous deployment is working by making some changes to the source code and see if amplify automatically effect the changes
+<!-- CodeCommit> Repositories>repo name> Edit index.html> Update some of the text>Commit the changes with Author name, email -->
+![Amplify CD](./images/applify-cd.png)
+![CD of changes](./images/amplify-cd2.png)
+
+### Implement User Access
+We use AWS Cognito to:
++ enable users to register and login with their credential or external identity systems.
++ enable user authentication
+
