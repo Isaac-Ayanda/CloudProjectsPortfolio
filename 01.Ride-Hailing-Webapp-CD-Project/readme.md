@@ -43,6 +43,7 @@ We use AWS CodeCommit to:
 ![Clone empty repo for source code](./images/clone-repo2.png)
 .
 + Copy the project code from the S3 bucket and commit it to the new repo. In cloud shell cd into the empty repo folder and copy source code from S3 to this folder.
-<!-- cd wildrydes-site2 > aws s3 cp s3:// (ensure to change the region to your region) -->
+<!-- cd wildrydes-site2 > aws s3 cp s3:// (ensure to change the region to your region) then add the files to the git repository, when prompted for email and user name use the details of the IAM user not the details for HTTPS, Commit and push> followed by the HTTPS credentials -->
 ![Clone source code from S3 bucket](./images/clone-repo3.png)
 ![Clone source code from S3 bucket](./images/clone-repo4.png)
+![Clone source code from S3 bucket](./images/clone-repo5.png)
