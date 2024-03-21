@@ -4,6 +4,7 @@
 <!-- ## Architechture -->
 ![App Architecture](./images/architecture.png)
 
+AWS services used: AWS CodeCommit, AWS Identity & Access Management (IAM), AWS 
 ## Project requirements & analysis
 + An Account and access to AWS Console
 + Knowledge of AWS Services
@@ -47,3 +48,11 @@ We use AWS CodeCommit to:
 ![Clone source code from S3 bucket](./images/clone-repo3.png)
 ![Clone source code from S3 bucket](./images/clone-repo4.png)
 ![Clone source code from S3 bucket](./images/clone-repo5.png)
+
+<!-- We can then view the source code files at CodeCommit> Repositories> Wildrydes-site -->
+![View source code in repo](./images/source-code.png)
+.
+### Host the Website & allow continuous delivery
+We use AWS Amplify to:
++ host the website so that user can easily access it.
++ easily deliver updates to the website
