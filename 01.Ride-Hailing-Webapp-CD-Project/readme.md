@@ -73,5 +73,6 @@ We use AWS Amplify to:
 We use AWS Cognito to:
 + enable users to register and login with their credential or external identity systems.
 + enable user authentication
-Amplify studio lets us setup cognito easily:
-![Amplify Sstudio](./images/applify-studio.png)
+<!-- Amplify studio lets us setup cognito on the deployed app easily: But first we setup a user pool from  cognito be performing configuration changes in amplify.i.e Amazon Cognito> User pools> Create user pool> Choose attibutes that users will use to sign in (User name, Email, Phone number)>Next>-->
+![Cognito setup](./images/cognito-user-pool.png)
+![Amplify Studio](./images/applify-studio.png)
