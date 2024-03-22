@@ -73,4 +73,5 @@ We use AWS Amplify to:
 We use AWS Cognito to:
 + enable users to register and login with their credential or external identity systems.
 + enable user authentication
-
+Amplify studio lets us setup cognito easily:
+![Amplify Sstudio](./images/applify-studio.png)
