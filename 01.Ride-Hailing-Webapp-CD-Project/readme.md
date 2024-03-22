@@ -77,6 +77,11 @@ We use AWS Cognito to:
 ![Cognito setup](./images/cognito-user-pool.png)
 ![Amplify Studio](./images/applify-studio.png)
 .
-+ Then update the configure file in the application to point to this user pool.  
++ Then update the config file in the application to point to this user pool.  
 <!-- CodeCommit>Code>js>config.js> Edit and update userpoolid, clientid and region the commit changes -->
 ![Update IDs](./images/update-ids.png)
+
++ Refresh the web page and test the login functionality. with email and password. The Cognito email service will send an email with verification code.
+
+![Test login](./images/test-login.png)
+![verification  successful](./images/verification-successful.png)
