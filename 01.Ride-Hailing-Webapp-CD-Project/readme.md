@@ -81,7 +81,9 @@ We use AWS Cognito to:
 <!-- CodeCommit>Code>js>config.js> Edit and update userpoolid, clientid and region the commit changes -->
 ![Update IDs](./images/update-ids.png)
 
-+ Refresh the web page and test the login functionality. with email and password. The Cognito email service will send an email with verification code.
++ Refresh the web page and test the login functionality with email and password. The Cognito email service will send an email with verification code. Cognito user pool takes care of signin functionality to the app.
 
 ![Test login](./images/test-login.png)
 ![verification  successful](./images/verification-successful.png)
+
++ 
