@@ -88,6 +88,6 @@ We use AWS Cognito to:
 ![Login successful](./images/success-login.png)
 
 ### Implemment Ride Sharing Functionality & Database to store and return ride results
-+ A user will request a ride and then a unicorn is sent to their location
++ A user will request a ride and then a unicorn is sent to their location. Here we use Lamda that allows code to runs serverlessly following some trigger.
 
 ![Login successful](./images/success-login.png)
