@@ -81,9 +81,13 @@ We use AWS Cognito to:
 <!-- CodeCommit>Code>js>config.js> Edit and update userpoolid, clientid and region the commit changes -->
 ![Update IDs](./images/update-ids.png)
 
-+ Refresh the web page and test the login functionality with email and password. The Cognito email service will send a confirmation email with verification code to the registered email to login. Cognito user pool takes care of signin functionality to the app. After successfully login it takes you to the ride.html page that has the map functionality
++ Refresh the web page and test the login functionality with email and password. The Cognito email service will send a confirmation email with verification code to the registered email to login. Cognito user pool takes care of signin functionality to the app. After successfully login it takes you to the ride.html page that has the map functionality. Copy the authentication token on the page into your note pade for use later.
 
 ![Test login](./images/test-login.png)
 ![verification  successful](./images/verification-successful.png)
+![Login successful](./images/success-login.png)
 
-+ 
+### Implemment Ride Sharing Functionality & Database to store and return ride results
++ A user will request a ride and then a unicorn is sent to their location
+
+![Login successful](./images/success-login.png)
