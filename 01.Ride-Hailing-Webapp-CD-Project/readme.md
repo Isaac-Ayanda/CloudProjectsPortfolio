@@ -89,6 +89,6 @@ We use AWS Cognito to:
 
 ### Implemment Ride Sharing Functionality & Database to store and return ride results
 + A user will request a ride and then a unicorn is sent to their location. Here we use Lamda that allows code to runs serverlessly following some trigger. In this case, the function to be trigger everytime a user requests a unicorn ride.
-+ We also use dynamoDB, a Key-value ("NoSQL") database. User request a ride that will select a unicorn from the fleet
++ We also use dynamoDB, a Key-value ("NoSQL") database. User request a ride that will select a unicorn from the fleet and record that request in the dynamoDB table
 
 ![Login successful](./images/success-login.png)
