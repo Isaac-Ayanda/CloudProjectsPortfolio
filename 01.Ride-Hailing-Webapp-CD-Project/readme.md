@@ -107,4 +107,4 @@ We use AWS Cognito to:
 <!-- Create a new lambda function: Lambda>functions>create function> Author from scratch>Function name=RequestUnicorn, Runtime=Node.js 16.x>Change dafault Execution rile>Use an existing role=WildRydesLambda>Create function  -->
 
 ![add role permission](./images/lambda-function.png)
-<!--after creating the function, scrow down and  Copy the corresponding Lambda function source code from AWS and past into the code source section to replace it -->
+<!--after creating the function, scrow down and  Copy the corresponding Lambda function source code from AWS and past into the code source section to replace it and ensure the code details algins with your setup for instance updating the dynamoDB table name to algin with your setup then> Deploy (to ensure changes  to the code is updated) -->
