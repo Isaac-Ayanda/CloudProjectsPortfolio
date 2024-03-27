@@ -96,6 +96,11 @@ We use AWS Cognito to:
 ![DynamoDB creation](./images/DynamoDBT2.png)
 
 + <!-- after the database has been created, click into it> under general information, expand additional info then copy the Amazon ARN into a notepad-->
-+ Next is to work on the lambda function which request the execution role which grants permission to the function to write to the dynamoDB
++ Next we work on the execution role which grants permission to the function to write to the dynamoDB
 <!-- Back at IAM>Roles>Create a new role> Trusted entity type=AWS service> Service=Lambda> Next> search and select awsLambdabasicExecutionRole>Next>Role name=WildRydesLambda>Then Create role  -->
+<!-- Go back to the Role you have just created and add additional permissions: i.e IAM> Roles>create inline policy>Specific permission>service=DynamoDB, Action allowed=putitem, Resources=specific (following list previlege principle), Add ARNs>Text tab = Past ARN earlier copied>Add ARNs> Next> Policy name=DynamoDBWriteAccess>Create Policy  -->
 ![Role creation](./images/role-creation.png)
+
+![add role permission](./images/add-role-permissions.png)
+
++ Next we work on the lambda function
