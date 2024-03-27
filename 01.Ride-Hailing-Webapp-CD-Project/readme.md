@@ -92,4 +92,5 @@ We use AWS Cognito to:
 + We also use dynamoDB, a Key-value ("NoSQL") database. User request a ride that will invoke a lamda function which select a unicorn from the fleet and record that request in the dynamoDB table and respond at the front with the details of the unicorn being dispatched. Setup dynamoDB
 <!-- DynamoDB> Tables>Create Table>Table name=Rides2>Partition Key>RideId=String>rest defaults>create table>-->
 
-![Login successful](./images/DynamoDBT.png)
+![DynamoDB creation](./images/DynamoDBT.png)
+![DynamoDB creation](./images/DynamoDBT2.png)
