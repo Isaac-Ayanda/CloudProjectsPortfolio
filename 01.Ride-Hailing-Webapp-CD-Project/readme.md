@@ -113,7 +113,7 @@ We use AWS Cognito to:
   - Handler that receives and process data inputs received from browser
   - We get the username from cognito username
   - We call a function to write data into the dynamoDB table (there is need to update the name of the table accordingly)
-  <!-- Next will be to test the function in the AWS console for going to test it as an end user: click on the dropdown of Test>Configure test event>Event name> TestRequestEvent>Then pass in similar data that will gotten from the browser in the Event JSON section>-->
+  <!-- Next will be to test the function in the AWS console for going to test it as an end user: click on the dropdown of Test>Configure test event>Event name> TestRequestEvent>Then pass in similar data that will gotten from the browser in the Event JSON section>copy and past the test event handler code from google drive>Save>Then click Test>If it work it will display response with status 201 and other details of the unicorn -->
 
 
 
