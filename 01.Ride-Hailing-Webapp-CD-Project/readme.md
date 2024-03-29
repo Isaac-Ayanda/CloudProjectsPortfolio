@@ -118,5 +118,5 @@ We use AWS Cognito to:
 
 ### Invoke Ride Sharing Functionality
 + We use API Gateway service to invoke the ride sharing functionality
-
+<!-- API Gateway>APIs>Create API> -->
 
