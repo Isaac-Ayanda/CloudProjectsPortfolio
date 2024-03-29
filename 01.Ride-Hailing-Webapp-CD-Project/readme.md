@@ -118,5 +118,6 @@ We use AWS Cognito to:
 
 ### Invoke Ride Sharing Functionality
 + We use API Gateway service to invoke the ride sharing functionality by building a rest API
-<!-- API Gateway>APIs>Create API>Scroll down and select REST API>Build> -->
-
+<!-- API Gateway>APIs>Create API>Scroll down and select REST API>Build>New API>ApI name=Wildrydes2>API End point type=Edge-optimized>Create API -->
+<!-- Since we are using cognito there is need to create an authorizer to authentical calls API gateway uses: API Gateway> APIs> Wildrydes2> Authorizers>Create Authorizers>Authorizer name=WildRydes>A type=Cognito>Cognito user pool=wildRdes(the user pool created earlier)>Token source=Authorization(this the header that will be sent in)>Create Authorizer>Click into the authorizer>Test Authorizer=Authorization token created earlier(copied from ride.html)>Test Authorizer>status code 200=success> -->
+<!--Go back to API Gateway and create a resource: API Gateway?APIs>Resource  -->
