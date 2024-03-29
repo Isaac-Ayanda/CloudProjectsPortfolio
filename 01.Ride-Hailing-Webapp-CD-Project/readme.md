@@ -2,7 +2,8 @@
 ### A ficticious company has approached us with a requirement to build a continous delivery Ride-hailing web application, like Uber; in this case, cars are referred to as Unicorns. The application should incorporate user registration and login, and Map functionalities that allows users to click on a location and request a unicorn ride. Credit: AWS
 
 <!-- ## Architechture -->
-![App Architecture](./images/architecture.png)
+![AWS Services](./images/architecture.png)
+![App Architecture](./images/architecture2.png)
 
 AWS services used: AWS CodeCommit, AWS Identity & Access Management (IAM), AWS 
 ## Project requirements & analysis
@@ -113,7 +114,9 @@ We use AWS Cognito to:
   - Handler that receives and process data inputs received from browser
   - We get the username from cognito username
   - We call a function to write data into the dynamoDB table (there is need to update the name of the table accordingly)
-  <!-- Next will be to test the function in the AWS console for going to test it as an end user: click on the dropdown of Test>Configure test event>Event name> TestRequestEvent>Then pass in similar data that will gotten from the browser in the Event JSON section>copy and past the test event handler code from google drive>Save>Then click Test>If it work it will display response with status 201 and other details of the unicorn -->
+  <!-- Next will be to test the function in the AWS console for going to test it as an end user: click on the dropdown of Test>Configure test event>Event name> TestRequestEvent>Then pass in similar data that will gotten from the browser in the Event JSON section>copy and past the test event handler code from google drive>Save>Then click Test>If it work it will display response with status 201 and other details of the unicorn>then check dynamoDB table to see if data was written to the database: DynamoDB> Tables> Rides2> Explore Tables items> Scroll down and see the data under items returned>click to see details-->
 
+### Invoke Ride Sharing Functionality
++ We use API Gateway service to invoke the ride sharing functionality
 
 
