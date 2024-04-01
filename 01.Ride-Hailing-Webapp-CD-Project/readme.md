@@ -123,4 +123,5 @@ We use AWS Cognito to:
 <!--Go back to API Gateway and create a resource: API Gateway?APIs>Resources> Create resource (this will allow use to hockup with lambda function)>Resource name=ride> Leave Resource path as it is> select CORS check box and click Create resource>Create method>Method type=POST>lambda is selected>toggle Lambda proxy integration>select Lambda function=request unicorn>Create method-->
 ![Create API Gateway](./images/api-method.png)
 
-<!-- Go to the Method request tab>Click on Edit>Authorization=congnito user pool:WildRydes from the drop down>scoll down and save>Click Delpoy API -->
+<!-- Go to the Method request tab>Click on Edit>Authorization=congnito user pool:WildRydes from the drop down>scoll down and save>Click Delpoy>  On the Deploy API dialogue box: Stage=New state, Stage name = dev>Click deploy>Copy the invoke URL link into the notepad>Back at CodeCommit:Repositories:wildrydes-site2/js/config.js>update the invoke url link in the code (for the API call)>Commit the changes. Next go to the code in the ride.html>Edit>Update the arkgis url version to 4.6 at the top and bottom>then commit changes> then applify pushes out the changes accordingly -->
+![Create API Gateway](./images/api-methodd.png)
