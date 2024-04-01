@@ -122,3 +122,5 @@ We use AWS Cognito to:
 <!-- Since we are using cognito there is need to create an authorizer to authentical calls API gateway uses: API Gateway> APIs> Wildrydes2> Authorizers>Create Authorizers>Authorizer name=WildRydes>A type=Cognito>Cognito user pool=wildRdes(the user pool created earlier)>Token source=Authorization(this the header that will be sent in)>Create Authorizer>Click into the authorizer>Test Authorizer=Authorization token created earlier(copied from ride.html)>Test Authorizer>status code 200=success> -->
 <!--Go back to API Gateway and create a resource: API Gateway?APIs>Resources> Create resource (this will allow use to hockup with lambda function)>Resource name=ride> Leave Resource path as it is> select CORS check box and click Create resource>Create method>Method type=POST>lambda is selected>toggle Lambda proxy integration>select Lambda function=request unicorn>Create method-->
 ![Create API Gateway](./images/api-method.png)
+
+<!-- Go to the Method request tab>Click on Edit>Authorization=congnito user pool:WildRydes from the drop down>scoll down and save>Click Delpoy API -->
