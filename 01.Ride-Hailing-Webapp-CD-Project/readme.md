@@ -4,6 +4,7 @@
 <!-- ## Architechture -->
 ![AWS Services](./images/architecture.png)
 ![App Architecture](./images/architecture2.png)
+![App Architecture](./images/architecture3.png)
 
 AWS services used: AWS CodeCommit, AWS Identity & Access Management (IAM), AWS 
 ## Project requirements & analysis
@@ -123,5 +124,8 @@ We use AWS Cognito to:
 <!--Go back to API Gateway and create a resource: API Gateway?APIs>Resources> Create resource (this will allow use to hockup with lambda function)>Resource name=ride> Leave Resource path as it is> select CORS check box and click Create resource>Create method>Method type=POST>lambda is selected>toggle Lambda proxy integration>select Lambda function=request unicorn>Create method-->
 ![Create API Gateway](./images/api-method.png)
 
-<!-- Go to the Method request tab>Click on Edit>Authorization=congnito user pool:WildRydes from the drop down>scoll down and save>Click Delpoy>  On the Deploy API dialogue box: Stage=New state, Stage name = dev>Click deploy>Copy the invoke URL link into the notepad>Back at CodeCommit:Repositories:wildrydes-site2/js/config.js>update the invoke url link in the code (for the API call)>Commit the changes. Next go to the code in the ride.html>Edit>Update the arkgis url version to 4.6 at the top and bottom>then commit changes> then applify pushes out the changes accordingly> Got to the rides.html page and test the map api page and refresh the page (ensure to be login to your account at arkgis.com> Test the app by clicking some were in the map and request unicorn>-->
+<!-- Go to the Method request tab>Click on Edit>Authorization=congnito user pool:WildRydes from the drop down>scoll down and save>Click Delpoy>  On the Deploy API dialogue box: Stage=New state, Stage name = dev>Click deploy>Copy the invoke URL link into the notepad>Back at CodeCommit:Repositories:wildrydes-site2/js/config.js>update the invoke url link in the code (for the API call)>Commit the changes. Next go to the code in the ride.html>Edit>Update the arkgis url version to 4.6 at the top and bottom>then commit changes> then applify pushes out the changes accordingly> Got to the rides.html page and test the map api page and refresh the page (ensure to be login to your account at arkgis.com> Test the app by clicking some were in the map and request unicorn>Also check details by refreshing dynamoDB table to see the returned items-->
 ![Create API Gateway](./images/api-arkgis.png)
+![Create API Gateway](./images/unicorn-request.png)
+![Create API Gateway](./images/dynamotu-update.png)
+![Create API Gateway](./images/dynamotb-update.png)
