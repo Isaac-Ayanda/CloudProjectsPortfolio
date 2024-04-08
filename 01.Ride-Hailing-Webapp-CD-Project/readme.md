@@ -129,3 +129,4 @@ We use AWS Cognito to:
 ![Create API Gateway](./images/unicorn-request.png)
 ![Create API Gateway](./images/dynamotu-update.png)
 ![Create API Gateway](./images/dynamotb-update.png)
+<!-- Clean up: Start by deleting the amplify app: All apps>wildrydes>Actions>delete app>delete. Next: Cognito user pool: Amazon Cognito>User pools>Wildrydes> Delete>check deativate deletion protection>confirm deletion. -->
