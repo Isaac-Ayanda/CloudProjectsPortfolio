@@ -100,7 +100,7 @@ We use AWS Cognito to:
 + <!-- after the database has been created, click into it> under general information, expand additional info then copy the Amazon ARN into a notepad-->
 + Next we work on the execution role which grants permission to the function to write to the dynamoDB
 <!-- Back at IAM>Roles>Create a new role> Trusted entity type=AWS service> Service=Lambda> Next> search and select awsLambdabasicExecutionRole>Next>Role name=WildRydesLambda>Then Create role  -->
-<!-- Go back to the Role you have just created and add additional permissions: i.e IAM> Roles>create inline policy>Specific permission>service=DynamoDB, Action allowed=putitem, Resources=specific (following list previlege principle), Add ARNs>Text tab = Past ARN earlier copied>Add ARNs> Next> Policy name=DynamoDBWriteAccess>Create Policy  -->
+<!-- Go back to the Role you have just created and add additional permissions: i.e IAM> Roles>create inline policy>Specific permission>service=DynamoDB, Action allowed=putitem, (check the write box=putitem) Resources=specific (following list previlege principle), Add ARNs>Text tab = Past ARN earlier copied>Add ARNs> Next> Policy name=DynamoDBWriteAccess>Create Policy  -->
 ![Role creation](./images/role-creation.png)
 
 ![add role permission](./images/add-role-permissions.png)
@@ -115,7 +115,7 @@ We use AWS Cognito to:
   - Handler that receives and process data inputs received from browser
   - We get the username from cognito username
   - We call a function to write data into the dynamoDB table (there is need to update the name of the table accordingly)
-  <!-- Next will be to test the function in the AWS console for going to test it as an end user: click on the dropdown of Test>Configure test event>Event name> TestRequestEvent>Then pass in similar data that will gotten from the browser in the Event JSON section>copy and past the test event handler code from google drive>Save>Then click Test>If it work it will display response with status 201 and other details of the unicorn>then check dynamoDB table to see if data was written to the database: DynamoDB> Tables> Rides2> Explore Tables items> Scroll down and see the data under items returned>click to see details-->
+  <!-- Next will be to test the function in the AWS console before going to test it as an end user: click on the dropdown of Test>Configure test event>Event name> TestRequestEvent>Then pass in similar data that will gotten from the browser in the Event JSON section>copy and past the test event handler code from google drive>Save>Then click Test>If it work it will display response with status 201 and other details of the unicorn>then check dynamoDB table to see if data was written to the database: DynamoDB> Tables> Rides2> Explore Tables items> Scroll down and see the data under items returned>click to see details-->
 
 ### Invoke Ride Sharing Functionality
 + We use API Gateway service to invoke the ride sharing functionality by building a rest API
