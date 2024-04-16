@@ -30,12 +30,12 @@ We use AWS CodeCommit to:
 ![Create repo on CodeCommit](./images/codecommitrepo.png)
 ![Create repo on CodeCommit](./images/createrepo.png)
 .
-+ Add a policy to your IAM user so that you can access CodeCommit. It is best practise to login as an IAM user with administrative acces not with root credentials. 
++ Add a policy to your IAM user so that you can access CodeCommit. It is best practise to login as an IAM user with administrative access not with root credentials. 
 <!-- Go to IAM> Users> Permissions policy> Add permissions> Attach policies directly> search for AWS CodeCommitPowerUSer> Next> Add permissions -->
 ![Create repo on CodeCommit](./images/add-permissions.png)
 ![Create repo on CodeCommit](./images/attach-policy.png)
 .
-+ Create GIT credentials for your IAM user to allow HTTPS connections to CodeCommit 
++ Create the GIT credentials for your IAM user to allow HTTPS connections to CodeCommit 
 <!-- IAM>Users>Security credentials>HTTPS Git Credentials for AWS CodeCommit>Generate credentials> Then download the credential -->
 ![Create GIT credentials](./images/git-credentials.png)
 ![Create GIT credentials](./images/git-credentials2.png)
