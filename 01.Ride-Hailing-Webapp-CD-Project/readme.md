@@ -66,15 +66,15 @@ We use AWS Amplify to:
 ![View source code in repo](./images/applify-app2.png)
 ![View source code in repo](./images/app-page.png)
 .
-+ Test that continous deployment is working by making some changes to the source code and see if amplify automatically effect the changes
++ Test that continous deployment is working by making some changes to the source code and see if amplify automatically apply the changes
 <!-- CodeCommit> Repositories>repo name> Edit index.html> Update some of the text>Commit the changes with Author name, email -->
 ![Amplify CD](./images/applify-cd.png)
 ![CD of changes](./images/amplify-cd2.png)
 
 ### Implement User Access
 We use AWS Cognito to:
-+ enable users to register and login with their credential or external identity systems.
-+ enable user authentication
++ Enable users to register and login with their credential or external identity systems.
++ Enable user authentication
  Amplify studio lets us setup cognito on the deployed app easily: But first we setup a user pool from  cognito be performing configuration changes in amplify <!--.i.e Amazon Cognito> User pools> Create user pool> Choose attibutes that users will use to sign in (User name, Email, Phone number)>Next>Configure Security requirements(Password Policy)>MFA setup>defaults for user account recovery>Next>Configure sign-up experience> Enable self registration and maintain defaults> Next> Configure message delivery: Email Provider(send with congito to test)> defaults for from and reply to emails adderss>Next>Integrate your app: add user pool name, add app client name, the rest defaults>Next> Review and create: Create user pool> Access user pool and copy User pool ID, Client ID under - app clients and analytics - App authentication -->
 ![Cognito setup](./images/cognito-user-pool.png)
 ![Amplify Studio](./images/applify-studio.png)
