@@ -24,9 +24,9 @@ We use AWS CodeCommit to:
 + store/update/pull the web application source code
 + handle permissions for the source code
 + Side note: There is need to be consistent in the AWS region we are working in.
-+ The App source code is made availale by AWS in a public S3 bocket
-+ We create a CodeCommit Repo
-+ + Create an empty repository in CodeCommit
++ The App source code is made available by AWS in a public S3 bocket
++ We create a CodeCommit Repo:
+  -  Create an empty repository in CodeCommit
 ![Create repo on CodeCommit](./images/codecommitrepo.png)
 ![Create repo on CodeCommit](./images/createrepo.png)
 .
