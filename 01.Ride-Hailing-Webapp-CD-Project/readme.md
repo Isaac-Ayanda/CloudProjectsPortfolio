@@ -6,9 +6,8 @@
 ## Project Architechture
 
 AWS services used: CodeCommit, Identity & Access Management (IAM), Amplify, Cognito, API Gateway, Lambda and DynamoDB
-## Project requirements & analysis
-+ An AWS Account and access to the Console
-+ Knowledge of the AWS Services
+## Project Requirements & Analysis
+
 + A free ArcGIS account (arcgis.com)
 + The need to store/update/pull code
 + The need to handle permissions for code
@@ -20,8 +19,8 @@ AWS services used: CodeCommit, Identity & Access Management (IAM), Amplify, Cogn
 
 ### Code Setup
 We use AWS CodeCommit to:
-+ store/update/pull the web application source code
-+ handle permissions for the source code
++ Store/update/pull the web application source code
++ Handle permissions for the source code
 + Side note: There is need to be consistent in the AWS region we are working in.
 + The App source code is made available by AWS in a public S3 bocket
 + We create a CodeCommit Repo:
