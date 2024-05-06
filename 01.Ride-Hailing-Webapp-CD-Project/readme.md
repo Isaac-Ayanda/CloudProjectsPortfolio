@@ -3,8 +3,7 @@
 
 <!-- ## Architechture -->
 ![AWS Services](./images/architecture.png)
-![App Architecture](./images/architecture2.png)
-![App Architecture](./images/architecture3.png)
+## Project Architechture
 
 AWS services used: CodeCommit, Identity & Access Management (IAM), Amplify, Cognito, API Gateway, Lambda and DynamoDB
 ## Project requirements & analysis
