@@ -41,9 +41,8 @@ We use AWS CodeCommit to:
   - CodeCommit>Repositories>Create repository> select repo you earlier created>Clone URL>Clone HTTPS>open cloud shell at the top> then type: git clone the url> Then enter the user name & password generated earlier
 ![Clone empty repo for source code](./images/clone-repo2.png)
 .
-  - Copy the project code from the S3 bucket and commit it to the new repo. AWS locked the application files so use the following to clone the app files instead:  aws s3 cp s3://ttt-wildrydes/wildrydes-site ./ --recursive. Next, add the files to the git repository, when prompted for email and user name use the details of the IAM user not the details for HTTPS, Commit and push> followed by the HTTPS credentials
+  - Copy the project code from the S3 bucket and commit it to the new repo. AWS locked the application files so use the following to clone the app files instead:  aws s3 cp s3://ttt-wildrydes/wildrydes-site ./ --recursive. Next, add the files to the git repository, when prompted for email and user name use the details of the IAM user not the details for HTTPS, Commit and push> followed by the HTTPS credentials. 
 ![Clone source code from S3 bucket](./images/clone-repo3.png)
-![Clone source code from S3 bucket](./images/clone-repo4.png)
 ![Clone source code from S3 bucket](./images/clone-repo5.png)
 
 <!-- We can then view the source code files at CodeCommit> Repositories> Wildrydes-site -->
