@@ -2,7 +2,7 @@
 ### A ficticious company has approached me with a requirement to build a continous delivery Ride-hailing web application, like Uber; in this case, cars are referred to as Unicorns. The application should include user registration and login, and Map functionalities that allow users to click on their current location on the map and request a unicorn ride to pick them up. Credit: AWS
 
 <!-- ## Architechture -->
-![AWS Services](./images/architecture.png)
+![AWS Services](./images/architecture.gif)
 ## Project Architechture
 
 AWS services used: CodeCommit, Identity & Access Management (IAM), Amplify, Cognito, API Gateway, Lambda and DynamoDB
