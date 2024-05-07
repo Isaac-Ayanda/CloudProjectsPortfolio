@@ -1,5 +1,5 @@
 # Ride-Hailing Serverless Web App Continuous Delivery Project
-### A ficticious company has approached me with a requirement to build a continous delivery Ride-hailing web application, like Uber; in this case, cars are referred to as Unicorns. The application should include user registration and login, and Map functionalities that allow users to click on their current location on the map and request a unicorn ride to pick them up. Credit: [AWS](https://aws.amazon.com/getting-started/hands-on/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/module-3/)
+### A ficticious company has approached me with a requirement to build a continous delivery Ride-hailing web application, like Uber; in this case, cars are referred to as Unicorns. The application should include user registration and login, and Map functionalities that allow users to click on their current location on the map and request a unicorn ride to pick them up. Credit: [AWS](https://aws.amazon.com/getting-started/hands-on/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/module-3/) and [Tiny](https://www.youtube.com/@TinyTechnicalTutorials)
 
 <!-- ## Architechture -->
 ![AWS Services](./images/architecture.gif)
