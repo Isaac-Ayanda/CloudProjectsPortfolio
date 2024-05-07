@@ -1,4 +1,4 @@
-# Ride-Hailing Web App Continuous Delivery Project
+# Ride-Hailing Serverless Web App Continuous Delivery Project
 ### A ficticious company has approached me with a requirement to build a continous delivery Ride-hailing web application, like Uber; in this case, cars are referred to as Unicorns. The application should include user registration and login, and Map functionalities that allow users to click on their current location on the map and request a unicorn ride to pick them up. Credit: [AWS](https://aws.amazon.com/getting-started/hands-on/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/module-3/)
 
 <!-- ## Architechture -->
@@ -45,7 +45,7 @@ We use AWS CodeCommit to:
 ![Clone source code from S3 bucket](./images/clone-repo3.png)
 ![Clone source code from S3 bucket](./images/clone-repo4.png)
 
-<!-- We can then view the source code files at CodeCommit> Repositories> Wildrydes-site -->
+  - We can view the source code files at CodeCommit> Repositories> Wildrydes-site
 ![View source code in repo](./images/source-code.png)
 .
 ### Host the Website & allow continuous delivery
