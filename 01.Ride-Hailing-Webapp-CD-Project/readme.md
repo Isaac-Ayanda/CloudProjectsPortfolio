@@ -53,9 +53,12 @@ We use AWS Amplify to:
 + connect with the CodeCommit repository and pull the source code
 + host the website so that user can easily access it.
 + easily deliver updates to the website.
-  - Go to Amplify>Create new app> Host app> select CodeCommit>continue>select the repo created earlier> click next> recent updates AWS applify now automatically deploy all files as part of continous deployment> next>review>save and deploy
+  - Go to Amplify>Create new app> Host app> select CodeCommit>continue>select the repo created earlier> click next> recent updates AWS applify now automatically deploy all files as part of continous deployment> next>review>save and deploy (there is also the need to create and assign role so that amplify can access and deploy the app)
 ![View source code in repo](./images/applify-app.png)
 ![View source code in repo](./images/applify-app1.png)
+![View source code in repo](./images/deploy-failed.png)
+![View source code in repo](./images/set-perm.png)
+<!-- ![View source code in repo](./images/role-list.png) -->
 <!-- Amplify is serverless and no need to provision EC2 servers-->
 ![View source code in repo](./images/applify-app2.png)
 ![View source code in repo](./images/app-page.png)
